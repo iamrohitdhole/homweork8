@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: session_summary
+    columns:
+      - name: sessionid
+        tests:
+          - unique
+          - not_null
+
